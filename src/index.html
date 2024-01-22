@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Mulheres na Ciência</h1>
+  </header>
+  <main>
+    <h2>Conheça as mulheres que marcaram a ciência com suas pesquisas e estudos.</h2>
+    <section class="ordenacao">
+      <label for="ordenacao">Ordenação</label>
+      <select name="order" id="ordenacao">
+        <option>A-Z</option>
+        <option>Z-A</option>
+      </select>
+
+      <section class="filtros">
+        <label for="filtro">Filtro</label>
+        <select name="filtro" id="filtro">
+          <option>todos</option>
+          <option>Ciencia de la Computación</option>
+          <option>Matemáticas</option>
+          <option>Filosofía</option>
+          <option>Video Juegos</option>
+          <option>Física</option>
+          <option>Astronomía</option>
+        </select>
+      </section>
+
+  </main>
+  <div id="root">
+  </div>
+  <footer> Hortencia Silva </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
