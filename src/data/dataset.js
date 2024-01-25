@@ -4,7 +4,7 @@ export default [
       "id": "crochet1",
       "name": "Crochê",
       "shortDescription": "Uma técnica de criar peças com fios e agulha.",
-      "description": "Crochê é uma técnica de criar peças artesanais com fios de lã, algodão ou outros materiais, usando uma agulha especial com um gancho na ponta. Crochê pode ser feito para fazer roupas, acessórios, tapetes, mantas, bonecos, etc. Crochê requer conhecimento de pontos, carreiras, cores, padrões, etc. Crochê é uma técnica que desenvolve a criatividade, a coordenação, a paciência e o relaxamento.",
+      "description": "Crochê é uma forma de arte que consiste em criar peças com fios de lã, algodão ou outros materiais, usando uma agulha especial que tem um gancho na ponta. Com o crochê, pode-se fazer vários tipos de objetos, como roupas, acessórios, bikinis, bolsas, tapetes, mantas, bonecos, etc. Para fazer crochê, é necessário aprender a fazer pontos, carreiras, cores e padrões diferentes. Crochê é uma técnica que ajuda a desenvolver a criatividade, a coordenação motora, a paciência e o relaxamento mental.",
       "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/croche.jpeg",
       "facts": {
         
@@ -18,7 +18,7 @@ export default [
       "id": "scrapbooking2",
       "name": "Scrapbooking",
       "shortDescription": "Uma forma de preservar e decorar memórias.",
-      "description": "Scrapbooking é uma forma de preservar e decorar memórias, como fotos, cartas, convites, ingressos, etc., usando diferentes materiais, como papéis, adesivos, fitas, botões, etc. Scrapbooking pode ser feito em álbuns, cadernos, caixas, quadros, etc., dependendo do tema e do estilo. Scrapbooking requer conhecimento de técnicas, como recortar, colar, dobrar, etc., e de elementos, como cores, formas, texturas, etc. Scrapbooking é uma forma de preservar e decorar memórias, além de ser uma forma de expressar sentimentos e emoções.",
+      "description": "Scrapbooking é uma arte de guardar e enfeitar memórias, como fotografias, cartas, e outros itens que tenham valor sentimental, usando diversos materiais, como papéis coloridos, adesivos temáticos, fitas decorativas, botões, e outros enfeites. Scrapbooking pode ser feito em diferentes formatos, como álbuns, cadernos, quadros, e outros suportes, de acordo com o tema e o estilo escolhidos. Scrapbooking exige conhecimento de técnicas, como recortar, colar, dobrar, e outras, e de elementos, como cores, formas, texturas, e outros, que harmonizem com as memórias. Scrapbooking é uma maneira de guardar e enfeitar memórias, e também de expressar sentimentos e emoções através da arte.",
       "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/scrapbooking.jpeg",
       "facts": {
         "custoParaIniciar": "R$100,00", // BRL
@@ -31,7 +31,7 @@ export default [
     "id": "soapMaking3",
     "name": "Fazer sabonetes",
     "shortDescription": "Uma arte de criar sabonetes com diferentes aromas e formas.",
-    "description": "Fazer sabonetes é uma arte de criar sabonetes artesanais com diferentes aromas, cores, formas e propriedades, usando diferentes ingredientes, como glicerina, óleos essenciais, corantes, extratos, etc. Fazer sabonetes pode ser feito para uso próprio, para presentear, para vender ou para decorar. Fazer sabonetes requer conhecimento de receitas, medidas, ingredientes, utensílios, etc. Fazer sabonetes é uma arte de criar sabonetes com diferentes aromas e formas, além de ser uma forma de cuidar da pele e do bem-estar.",
+    "description": "Fazer sabonetes é uma arte de produzir sabonetes artesanais com aromas, cores, formas e propriedades diversos, usando ingredientes variados, como glicerina, óleos essenciais, moldes, flores secas, corantes, extratos, etc. Fazer sabonetes pode ser para uso pessoal, por hobby, para dar de presente, para vender ou para enfeitar. Fazer sabonetes requer saber fazer receitas, medir ingredientes, usar utensílios, etc. Fazer sabonetes é uma arte de criar sabonetes personalizados e uma forma de cuidar da pele e do bem-estar com produtos naturais.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/sabonetes.jpeg",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
@@ -44,7 +44,7 @@ export default [
     "id": "candleMaking4",
     "name": "Fazer velas",
     "shortDescription": "Uma arte de criar velas com diferentes aromas e formas.",
-    "description": "Fazer velas é uma arte de criar velas artesanais com diferentes aromas, cores, formas e propriedades, usando diferentes ingredientes, como cera, pavio, óleos essenciais, corantes, etc. Fazer velas pode ser feito para uso próprio, para presentear, para vender ou para decorar. Fazer velas requer conhecimento de receitas, medidas, ingredientes, utensílios, etc. Fazer velas é uma arte de criar velas com diferentes aromas e formas, além de ser uma forma de criar um ambiente aconchegante e relaxante.",
+    "description": "Fazer velas é uma arte de produzir velas artesanais com diferentes aromas, cores, formas e propriedades, usando diversos ingredientes, como cera, pavio, óleos essenciais, corantes, extratos, etc. Fazer velas pode ser uma atividade para uso próprio, para dar de presente, para vender ou para decorar ambientes. Fazer velas requer conhecimento de receitas, medidas, ingredientes, utensílios, etc., que devem ser adequados ao tipo de vela desejado. Fazer velas é uma arte de criar velas personalizadas e uma forma de criar um clima aconchegante e relaxante com produtos naturais e aromáticos.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/cria%C3%A7%C3%A3oDeVelas.jpeg",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
@@ -57,7 +57,7 @@ export default [
     "id": "pottery5",
     "name": "Cerâmica",
     "shortDescription": "Uma arte de modelar objetos com argila ou barro.",
-    "description": "Cerâmica é uma arte de modelar objetos com argila ou barro, usando as mãos, ferramentas ou um torno. Cerâmica pode ser feita para fazer vasos, pratos, copos, esculturas, etc. Cerâmica requer conhecimento de técnicas, como modelagem, secagem, queima, esmaltação, etc., e de materiais, como argila, barro, esmaltes, forno, etc. Cerâmica é uma arte de modelar objetos com argila ou barro, além de ser uma forma de expressar a criatividade e a sensibilidade.",
+    "description": "Cerâmica é uma arte de modelar objetos com argila ou barro, usando as mãos, ferramentas ou um torno. Cerâmica pode ser feita para fazer vasos, xícaras, bule, brincos, miçangas, anéis, objetos de decoração, corujas, tigelas, pratos, copos, esculturas, etc. Cerâmica requer conhecimento de técnicas, como modelagem, secagem, queima, esmaltação, etc., e de materiais, como argila, barro, esmaltes, forno, etc. Cerâmica é uma arte de modelar objetos com argila ou barro, além de ser uma forma de expressar a criatividade e a sensibilidade.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/cer%C3%A2mica.jpeg",
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
@@ -95,7 +95,7 @@ export default [
     "id": "hairStyling8",
     "name": "Penteados",
     "shortDescription": "Uma forma de mudar o visual e o humor com diferentes estilos de cabelo.",
-    "description": "Penteados é uma forma de mudar o visual e o humor com diferentes estilos de cabelo, usando produtos, acessórios e ferramentas, como gel, spray, presilhas, tiaras, elásticos, escova, secador, chapinha, babyliss, etc. Penteados pode ser feito para diferentes ocasiões, como trabalho, festa, casamento, etc., e para diferentes estilos, como solto, preso, trançado, cacheado, liso, etc. Penteados requer conhecimento de técnicas, como escova, modelagem, trança, coque, rabo de cavalo, etc., e de produtos, como fixador, hidratante, protetor térmico, etc. Penteados é uma forma de mudar o visual e o humor com diferentes estilos de cabelo, além de ser uma forma de cuidar dos fios e da autoestima.",
+    "description": "Penteados é uma arte de mudar o visual e o humor com estilos de cabelo variados, usando produtos, acessórios e ferramentas, como gel, spray, presilhas, tiaras, elásticos, escova, secador, chapinha, babyliss, etc. Penteados pode ser para ocasiões diferentes, como trabalho, festa, casamento, etc., e para estilos diferentes, como preso, trançado, cacheado, etc. Penteados requer saber técnicas, como escova, modelagem, trança,  rabo de cavalo, etc., e produtos, como fixador, hidratante, protetor térmico, etc., adequados ao cabelo e ao estilo. Penteados é uma arte de mudar o visual, e uma forma de cuidar dos fios e da autoestima.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/penteados.jpeg",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
@@ -108,7 +108,7 @@ export default [
     "id": "skincare9",
     "name": "Cuidados com a pele",
     "shortDescription": "Uma forma de prevenir e tratar problemas de pele e retardar o envelhecimento.",
-    "description": "Cuidar da pele é essencial para prevenir problemas como acne, manchas e rugas, além de retardar o envelhecimento. Utilizando produtos como sabonete, tônico, hidratante, protetor solar e máscara, os cuidados podem ocorrer em casa, clínicas ou salões, conforme a necessidade. O processo envolve técnicas como limpeza, tonificação, hidratação e proteção, demandando conhecimento sobre tipos, texturas e ingredientes dos produtos. Além de promover a saúde da pele, esses cuidados contribuem para a autoestima. com a pele é uma forma de prevenir e tratar problemas de pele, como acne, manchas, rugas, etc., e retardar o envelhecimento, usando produtos cosméticos, como sabonete, tônico, hidratante, protetor solar, esfoliante, máscara, etc. Cuidados com a pele pode ser feito em casa, em clínicas ou em salões, dependendo do tipo de pele e do objetivo do tratamento. Cuidados com a pele requer conhecimento de técnicas, como limpeza, tonificação, hidratação, proteção, etc., e de produtos, como tipos, texturas, ingredientes, etc. Cuidados com a pele é uma forma de prevenir e tratar problemas de pele e retardar o envelhecimento, além de ser uma forma de cuidar da saúde e da autoestima.",
+    "description": "Preservar a pele torna-se crucial para prevenir e tratar problemas como acne, manchas e rugas, ao mesmo tempo que desacelera o envelhecimento. Utilizando produtos cosméticos como sabonete, tônico, hidratante, protetor solar, esfoliante e máscara, os cuidados cutâneos podem ser realizados em casa, clínicas ou salões, adaptando-se ao tipo de pele e ao objetivo do tratamento. Este processo exige conhecimento em técnicas como limpeza, tonificação, hidratação e proteção, assim como compreensão dos produtos em termos de tipos, texturas e ingredientes. Além de prevenir problemas dermatológicos e retardar o envelhecimento, os cuidados com a pele promovem a saúde e a autoestima.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/cuidados%20com%20a%20pele.jpeg",
     "facts": {
       "custoParaInicia": "R$200,00", // BRL
@@ -212,7 +212,7 @@ export default [
     "id": "writing17",
     "name": "Escrever",
     "shortDescription": "Uma forma de se expressar, se comunicar e se criar com palavras e ideias.",
-    "description": "Escrever é uma atividade que consiste em produzir textos escritos, que podem ser de diferentes gêneros, como romances, contos, poemas, ensaios, biografias, reportagens, etc. Escrever é uma forma de se expressar, se comunicar e se criar com palavras e ideias, usando a linguagem, a gramática, a ortografia, a pontuação, etc. Escrever pode ser feito em papel, em computador, em celular, em tablet, etc., dependendo da preferência e da disponibilidade do escritor.",
+    "description": "Escrever é uma atividade que consiste em produzir textos escritos, que podem ser de diferentes gêneros, como romances, contos, poemas, ensaios, biografias, autobiografia, peças de teatro,  reportagens, etc. Escrever é uma forma de se expressar, se comunicar e se criar com palavras e ideias, usando a linguagem, a gramática, a ortografia, a pontuação, etc. Escrever pode ser feito em papel, em computador, em celular, em tablet, etc., dependendo da preferência e da disponibilidade do escritor., É comum as pessoas compartilharem suas obras em redes sociais, como Wattpad. ",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/writing.jpg",
     "facts": {
       "custoParaIniciar": "R$0,00", // BRL
@@ -225,7 +225,7 @@ export default [
     "id": "puzzleSolving18",
     "name": "Resolver quebra-cabeças",
     "shortDescription": "Uma forma de se divertir, se desafiar e se estimular com enigmas e problemas.",
-    "description": "Resolver quebra-cabeças é uma forma de se divertir, se desafiar e se estimular com enigmas e problemas, que podem ser de diferentes tipos, como palavras cruzadas, sudoku, caça-palavras, cubo mágico, etc. Resolver quebra-cabeças requer conhecimento de lógica, raciocínio, memória, vocabulário, etc. Resolver quebra-cabeças pode ser feito em papel, em computador, em celular, em tablet, etc., dependendo da preferência e da disponibilidade do jogador.",
+    "description": "Desvendar quebra-cabeças é uma maneira de desfrutar, desafiar a mente e se estimular com uma variedade de enigmas, como palavras cruzadas, sudoku, caça-palavras e Cubo Mágico. Esse passatempo demanda habilidades como lógica, raciocínio, memória e vocabulário. A resolução de quebra-cabeças pode ocorrer em papel, computador, celular ou tablet, adaptando-se às preferências e disponibilidade do jogador. Essa atividade transcende a diversão, proporcionando um exercício intelectual que aprimora as faculdades cognitivas, oferecendo uma forma flexível e acessível de entretenimento e estímulo mental.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/puzzlesolving.jpg",
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
@@ -303,7 +303,7 @@ export default [
     "id": "sewing24",
     "name": "Costura",
     "shortDescription": "Uma técnica de criar peças com tecidos e agulhas.",
-    "description": "Costura é uma técnica de criar peças artesanais ou industriais com tecidos e agulhas, usando linhas, botões, zíperes, etc. Costura pode ser feita para fazer roupas, acessórios, cortinas, almofadas, etc. Costura requer conhecimento de tipos de tecidos, de linhas, de agulhas, de máquinas, de moldes, de medidas, etc. Costura é uma técnica que desenvolve a criatividade, a coordenação, a precisão e a produtividade.",
+    "description": "A costura é uma habilidade que envolve a criação de peças artesanais ou industriais por meio do uso de tecidos e agulhas, incorporando elementos como linhas, botões e zíperes. Pode ser aplicada na confecção de roupas, acessórios, cortinas, almofadas, entre outros. A prática da costura demanda conhecimentos sobre tipos de tecidos, linhas, agulhas, máquinas, moldes e medidas. Além de ser uma técnica versátil, a costura promove o desenvolvimento da criatividade, coordenação, precisão e produtividade, destacando-se como uma atividade que alia arte e funcionalidade.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T002/src/data/Imagens%20IA/sewing.jpg",
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
