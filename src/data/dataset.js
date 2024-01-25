@@ -11,7 +11,7 @@ export default [
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
         "categoria": "artesanato",
-        "materialNecessario": "Fios, agulha de crochê, tesoura, etc." // Yarns, crochet hook, scissors, etc.
+        
       }
     },
     {
@@ -24,7 +24,7 @@ export default [
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
         "categoria": "artesanato",
-        "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc." // Papers, stickers, ribbons, buttons, scissors, glue, etc.
+        
       }
   },
   {
@@ -37,7 +37,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "artesanato",
-      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc." // Glycerin, essential oils, dyes, extracts, molds, pot, etc.
+
     }
   },
   {
@@ -50,7 +50,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "artesanato",
-      "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc." // Wax, wick, essential oils, dyes, molds, pot, etc.
+      
     }
   },
   {
@@ -63,7 +63,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "artesanato",
-      "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc." // Clay, mud, tools, wheel, glazes, oven, etc.
+      
     }
   },
   {
@@ -76,7 +76,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
-      "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc." // Cosmetic products, brushes, sponges, mirror, etc.
+      
     }
   },
   {
@@ -101,7 +101,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
-      "materialNecessario": "Produtos, acessórios e ferramentas para cabelo." // Products, accessories and tools for hair.
+      
     }
   },
   {
@@ -114,7 +114,7 @@ export default [
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
-     "materialNecessario": "Produtos cosméticos para pele." // Cosmetic products for skin.
+     
     }
   },
   {
@@ -127,7 +127,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupas, calçados e acessórios confortáveis." // Clothes, shoes and comfortable accessories.
+      
     }
   },
   {
@@ -140,7 +140,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc." // Clothes, sneakers, watch, headphone, etc.
+      
     }
   },
   {
@@ -153,7 +153,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupa de banho, touca, óculos, etc." // Swimsuit, cap, goggles, etc.
+      
     }
   },
   {
@@ -166,7 +166,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupas, tênis, mochila, garrafa de água, lanche, etc." // Clothes, sneakers, backpack, water bottle, snack, etc.
+      
     }
   },
   {
@@ -179,7 +179,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupas, tênis, acessórios, etc." // Clothes, sneakers, accessories, etc.
+      
     }
   },
   {
@@ -192,7 +192,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
-      "materialNecessario": "Roupas, colchonete, bola, elástico, rolo, etc." // Clothes, mat, ball, elastic, roller, etc.
+      
     }
   },
   {
@@ -205,7 +205,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
       "categoria": "mente",
-      "materialNecessario": "Livros, revistas, jornais, e-books, sites, blogs, etc." // Books, magazines, newspapers, e-books, websites, blogs, etc.
+      
     }
   },
   {
@@ -218,7 +218,7 @@ export default [
       "custoParaIniciar": "R$0,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "mente",
-      "materialNecessario": "Papel, caneta, computador, celular, tablet, etc." // Paper, pen, computer, cell phone, tablet, etc.
+      
     }
   },
   {
@@ -231,7 +231,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "mente",
-      "materialNecessario": "Quebra-cabeças, papel, caneta, computador, celular, tablet, etc." // Puzzles, paper, pen, computer, cell phone, tablet, etc.
+      
     }
   },
   {
@@ -244,7 +244,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "natureza",
-      "materialNecessario": "Vasos, terra, sementes, mudas, regador, tesoura, etc." // Pots, soil, seeds, seedlings, watering can, scissors, etc.
+      
     }
   },
   {
@@ -257,7 +257,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "natureza",
-      "materialNecessario": "Binóculos, câmera, guia de aves, caderno, caneta, etc." // Binoculars, camera, bird guide, notebook, pen, etc.
+      
     }
   },
   {
@@ -270,7 +270,7 @@ export default [
       "custoParaIniciar": "R$500,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "natureza",
-      "materialNecessario": "Câmera, lente, tripé, cartão de memória, bateria, etc." // Camera, lens, tripod, memory card, battery, etc.
+      
     }
   },
   {
@@ -283,7 +283,7 @@ export default [
       "custoParaIniciar": "R$300,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "natureza",
-      "materialNecessario": "Barraca, saco de dormir, lanterna, fósforo, comida, água, etc." // Tent, sleeping bag, flashlight, match, food, water, etc.
+      
     }
   },
   {
@@ -296,7 +296,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "natureza",
-      "materialNecessario": "Ingredientes, utensílios, receitas, temperos, etc." // Ingredients, utensils, recipes, seasonings, etc.
+      
     }
   },
   {
@@ -309,7 +309,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "artesanato",
-      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, tesoura, botões, zíperes, etc." // Fabrics, threads, needles, sewing machine, scissors, buttons, zippers, etc.
+      
     }
   }
 ];
