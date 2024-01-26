@@ -11,6 +11,8 @@ export default [
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
         "categoria": "artesanato",
+        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",
+        
         
       }
     },
@@ -24,6 +26,7 @@ export default [
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
         "categoria": "artesanato",
+        "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc.",
         
       }
   },
@@ -37,6 +40,8 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "artesanato",
+      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc.",
+
 
     }
   },
@@ -50,7 +55,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "artesanato",
-      
+      "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc.",
     }
   },
   {
@@ -63,7 +68,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "artesanato",
-      
+      "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc.",
     }
   },
   {
@@ -76,6 +81,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+      "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc.",
       
     }
   },
@@ -89,6 +95,8 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, glitter, alicate, lixa, palito, etc.",
+
     }
   },
   {
@@ -101,6 +109,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+      "materialNecessario": "Produtos, acessórios e ferramentas para cabelo.",
       
     }
   },
@@ -114,6 +123,7 @@ export default [
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+      "materialNecessario": "Produtos cosméticos para pele.",
      
     }
   },
@@ -127,6 +137,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupas, calçados e acessórios confortáveis.",
       
     }
   },
@@ -140,6 +151,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc.",
       
     }
   },
@@ -153,6 +165,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupa de banho, touca, óculos, etc.",
       
     }
   },
