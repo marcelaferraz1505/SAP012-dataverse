@@ -10,7 +10,9 @@ export default [
         
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
-        "categoriaHobby": "artesanato",
+        "categoria": "artesanato",
+        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",
+        
         
       }
     },
@@ -23,7 +25,8 @@ export default [
       "facts": {
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
-        "categoriaHobby": "artesanato",
+        "categoria": "artesanato",
+        "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc.",
         
       }
   },
@@ -37,6 +40,8 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "artesanato",
+      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc.",
+
 
     }
   },
@@ -49,8 +54,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "artesanato",
-      
+      "categoria": "artesanato",
+      "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc.",
     }
   },
   {
@@ -62,8 +67,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoriaHobby": "artesanato",
-      
+      "categoria": "artesanato",
+      "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc.",
     }
   },
   {
@@ -75,7 +80,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "beleza",
+      "categoria": "beleza",
+      "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc.",
       
     }
   },
@@ -89,6 +95,8 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, glitter, alicate, lixa, palito, etc.",
+
     }
   },
   {
@@ -100,7 +108,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "beleza",
+      "categoria": "beleza",
+      "materialNecessario": "Produtos, acessórios e ferramentas para cabelo.",
       
     }
   },
@@ -113,7 +122,8 @@ export default [
     "facts": {
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "beleza",
+      "categoria": "beleza",
+      "materialNecessario": "Produtos cosméticos para pele.",
      
     }
   },
@@ -126,7 +136,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "movimentar o corpo",
+      "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupas, calçados e acessórios confortáveis.",
       
     }
   },
@@ -139,7 +150,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "movimentar o corpo",
+      "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc.",
       
     }
   },
@@ -152,7 +164,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoriaHobby": "movimentar o corpo",
+      "categoria": "movimentar o corpo",
+      "materialNecessario": "Roupa de banho, touca, óculos, etc.",
       
     }
   },
@@ -166,7 +179,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      "materialNecessario": "Roupas, tênis, mochila, garrafa de água, lanche, etc.",
+      
     }
   },
   {
@@ -179,7 +192,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      "materialNecessario": "Roupas, tênis, acessórios, etc.",
+      
     }
   },
   {
@@ -192,7 +205,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      "materialNecessario": "Roupas, colchonete, bola, elástico, rolo, etc.",
+      
     }
   },
   {
@@ -205,7 +218,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
       "categoriaHobby": "mente",
-      "materialNecessario": "Livros, revistas, jornais, e-books, sites, blogs, etc.",
+      
     }
   },
   {
@@ -218,7 +231,7 @@ export default [
       "custoParaIniciar": "R$0,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "mente",
-      "materialNecessario": "Papel, caneta, computador, celular, tablet, etc.",
+      
     }
   },
   {
@@ -231,7 +244,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "mente",
-      "materialNecessario": "Quebra-cabeças, papel, caneta, computador, celular, tablet, etc.",
+      
     }
   },
   {
@@ -244,7 +257,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      "materialNecessario": "Vasos, terra, sementes, mudas, regador, tesoura, etc.",
+      
     }
   },
   {
@@ -257,7 +270,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      "materialNecessario": "Binóculos, câmera, guia de aves, caderno, caneta, etc.",
+      
     }
   },
   {
@@ -270,7 +283,7 @@ export default [
       "custoParaIniciar": "R$500,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "natureza",
-      "materialNecessario": "Câmera, lente, tripé, cartão de memória, bateria, etc.",
+      
     }
   },
   {
@@ -283,7 +296,7 @@ export default [
       "custoParaIniciar": "R$300,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "natureza",
-      "materialNecessario": "Barraca, saco de dormir, lanterna, fósforo, comida, água, etc.",
+      
     }
   },
   {
@@ -296,7 +309,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      "materialNecessario": "Ingredientes, utensílios, receitas, temperos, etc.",
+      
     }
   },
   {
@@ -309,7 +322,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "artesanato",
-      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, tesoura, botões, zíperes, etc.",
+      
     }
   }
 ];
