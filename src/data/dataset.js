@@ -10,10 +10,8 @@ export default [
         
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
-        "categoria": "artesanato",
-        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",
-        
-        
+        "categoriaHobby": "artesanato",
+        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",      
       }
     },
     {
@@ -25,24 +23,21 @@ export default [
       "facts": {
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
-        "categoria": "artesanato",
+        "categoriaHobby": "artesanato",
         "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc.",
-        
       }
   },
   {
     "id": "soapMaking3",
     "name": "Fazer sabonetes",
-    "shortDescription": "Uma arte de criar sabonetes com diferentes aromas e formas.",
+    "shortDescription": "A arte de criar sabonetes com diferentes aromas.",
     "description": "Fazer sabonetes é uma arte de produzir sabonetes artesanais com aromas, cores, formas e propriedades diversos, usando ingredientes variados, como glicerina, óleos essenciais, moldes, flores secas, corantes, extratos, etc. Fazer sabonetes pode ser para uso pessoal, por hobby, para dar de presente, para vender ou para enfeitar. Fazer sabonetes requer saber fazer receitas, medir ingredientes, usar utensílios, etc. Fazer sabonetes é uma arte de criar sabonetes personalizados e uma forma de cuidar da pele e do bem-estar com produtos naturais.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/sabonetes.jpeg?raw=true",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "artesanato",
-      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc.",
-
-
+      "materialNecessario": "Glicerina, óleos essenciais, extratos, formas, etc.",
     }
   },
   {
@@ -54,7 +49,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
       "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc.",
     }
   },
@@ -67,7 +62,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
       "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc.",
     }
   },
@@ -80,9 +75,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
       "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc.",
-      
     }
   },
   {
@@ -95,8 +89,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
-      "materialNecessario": "Esmaltes, adesivos, pedrarias, glitter, alicate, lixa, palito, etc.",
-
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, alicate, etc.",
     }
   },
   {
@@ -108,9 +101,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
       "materialNecessario": "Produtos, acessórios e ferramentas para cabelo.",
-      
     }
   },
   {
@@ -122,9 +114,8 @@ export default [
     "facts": {
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
       "materialNecessario": "Produtos cosméticos para pele.",
-     
     }
   },
   {
@@ -136,9 +127,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       "materialNecessario": "Roupas, calçados e acessórios confortáveis.",
-      
     }
   },
   {
@@ -150,9 +140,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc.",
-      
     }
   },
   {
@@ -164,9 +153,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       "materialNecessario": "Roupa de banho, touca, óculos, etc.",
-      
     }
   },
   {
@@ -212,8 +200,7 @@ export default [
     "id": "reading16",
     "name": "Ler",
     "shortDescription": "Uma forma de viajar sem sair do lugar e aprender novas coisas.",
-    "description": "Ler é uma atividade que consiste em interpretar e compreender textos escritos, que podem ser de diferentes gêneros, como romances, contos, poemas, ensaios, biografias, reportagens, etc. Ler é uma forma de se transportar para outras realidades, conhecer novas culturas, ampliar o vocabulário, desenvolver o senso crítico, estimular a imaginação e adquirir conhecimento. Ler pode ser feito em livros, revistas, jornais, e-books, sites, blogs, etc., dependendo da preferência e da disponibilidade do leitor.",
-    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/leitura.jpeg?raw=true",
+    "description":"Ler é uma atividade que consiste em interpretar e compreender textos escritos, que podem ser de diferentes gêneros, como romances, poemas, ensaios, biografias, reportagens, etc. Ler é uma forma de se transportar para outras realidades, conhecer novas culturas, ampliar o vocabulário, desenvolver o senso crítico, estimular a imaginação e adquirir conhecimento. Ler pode ser feito em livros, revistas, jornais, e-books, sites, blogs, etc., dependendo da preferência e da disponibilidade do leitor.Ler também é uma forma de se comunicar com outras pessoas, expressar ideias, sentimentos, opiniões e emoções. Ler pode ser um hábito prazeroso, que proporciona relaxamento, inspiração e aprendizado.",    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/leitura.jpeg?raw=true",
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
@@ -322,7 +309,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "artesanato",
-      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, tesoura, botões, zíperes, etc.",
+      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, etc.",
     }
   }
 ];
