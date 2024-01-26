@@ -179,7 +179,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupas, tênis, mochila, garrafa de água, lanche, etc.",
     }
   },
   {
@@ -192,7 +192,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupas, tênis, acessórios, etc.",
     }
   },
   {
@@ -205,7 +205,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupas, colchonete, bola, elástico, rolo, etc.",
     }
   },
   {
@@ -218,7 +218,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
       "categoriaHobby": "mente",
-      
+      "materialNecessario": "Livros, revistas, jornais, e-books, sites, blogs, etc.",
     }
   },
   {
@@ -231,7 +231,7 @@ export default [
       "custoParaIniciar": "R$0,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "mente",
-      
+      "materialNecessario": "Papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
@@ -244,7 +244,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "mente",
-      
+      "materialNecessario": "Quebra-cabeças, papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
@@ -257,7 +257,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      
+      "materialNecessario": "Vasos, terra, sementes, mudas, regador, tesoura, etc.",
     }
   },
   {
@@ -270,7 +270,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      
+      "materialNecessario": "Binóculos, câmera, guia de aves, caderno, caneta, etc.",
     }
   },
   {
@@ -283,7 +283,7 @@ export default [
       "custoParaIniciar": "R$500,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "natureza",
-      
+      "materialNecessario": "Câmera, lente, tripé, cartão de memória, bateria, etc.",
     }
   },
   {
@@ -296,7 +296,7 @@ export default [
       "custoParaIniciar": "R$300,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "natureza",
-      
+      "materialNecessario": "Barraca, saco de dormir, lanterna, fósforo, comida, água, etc.",
     }
   },
   {
@@ -309,7 +309,7 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "natureza",
-      
+      "materialNecessario": "Ingredientes, utensílios, receitas, temperos, etc.",
     }
   },
   {
@@ -322,7 +322,7 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoriaHobby": "artesanato",
-      
+      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, tesoura, botões, zíperes, etc.",
     }
   }
 ];
