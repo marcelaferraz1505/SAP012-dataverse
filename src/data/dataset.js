@@ -1,5 +1,33 @@
 export default [
   {
+<<<<<<<<< Temporary merge branch 1
+
+    "id": "crochet1",
+    "name": "Crochê",
+    "shortDescription": "Uma técnica de criar peças com fios e agulha.",
+    "description": "Crochê é uma forma de arte que consiste em criar peças com fios de lã, algodão ou outros materiais, usando uma agulha especial que tem um gancho na ponta. Com o crochê, pode-se fazer vários tipos de objetos, como roupas, acessórios, bikinis, bolsas, tapetes, mantas, bonecos, etc. Para fazer crochê, é necessário aprender a fazer pontos, carreiras, cores e padrões diferentes. Crochê é uma técnica que ajuda a desenvolver a criatividade, a coordenação motora, a paciência e o relaxamento mental.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/croche.jpeg?raw=true",
+    "facts": {
+
+      "custoParaIniciar": "R$50,00", // BRL
+      "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
+      "categoria": "artesanato",
+
+    }
+  },
+  {
+    "id": "scrapbooking2",
+    "name": "Scrapbooking",
+    "shortDescription": "Uma forma de preservar e decorar memórias.",
+    "description": "Scrapbooking é uma arte de guardar e enfeitar memórias, como fotografias, cartas, e outros itens que tenham valor sentimental, usando diversos materiais, como papéis coloridos, adesivos temáticos, fitas decorativas, botões, e outros enfeites. Scrapbooking pode ser feito em diferentes formatos, como álbuns, cadernos, quadros, e outros suportes, de acordo com o tema e o estilo escolhidos. Scrapbooking exige conhecimento de técnicas, como recortar, colar, dobrar, e outras, e de elementos, como cores, formas, texturas, e outros, que harmonizem com as memórias. Scrapbooking é uma maneira de guardar e enfeitar memórias, e também de expressar sentimentos e emoções através da arte.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/scrapbooking.jpeg?raw=true",
+    "facts": {
+      "custoParaIniciar": "R$100,00", // BRL
+      "nivelDeDificuldade": 2,
+      "categoria": "artesanato",
+
+    }
+=========
     
       "id": "crochet1",
       "name": "Crochê",
@@ -10,7 +38,7 @@ export default [
         
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
-        "categoria": "artesanato",
+        "categoriaHobby": "artesanato",
         
       }
     },
@@ -23,9 +51,10 @@ export default [
       "facts": {
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
-        "categoria": "artesanato",
+        "categoriaHobby": "artesanato",
         
       }
+>>>>>>>>> Temporary merge branch 2
   },
   {
     "id": "soapMaking3",
@@ -37,6 +66,8 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "artesanato",
+      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc.",
+
 
     }
   },
@@ -50,7 +81,11 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "artesanato",
+
+=========
+      "categoriaHobby": "artesanato",
       
+>>>>>>>>> Temporary merge branch 2
     }
   },
   {
@@ -63,7 +98,11 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
       "categoria": "artesanato",
+
+=========
+      "categoriaHobby": "artesanato",
       
+>>>>>>>>> Temporary merge branch 2
     }
   },
   {
@@ -76,6 +115,9 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+
+=========
+      "categoriaHobby": "beleza",
       
     }
   },
@@ -89,6 +131,8 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, glitter, alicate, lixa, palito, etc.",
+
     }
   },
   {
@@ -101,6 +145,9 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+
+=========
+      "categoriaHobby": "beleza",
       
     }
   },
@@ -114,6 +161,9 @@ export default [
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "beleza",
+
+=========
+      "categoriaHobby": "beleza",
      
     }
   },
@@ -127,6 +177,9 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+
+=========
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -140,6 +193,9 @@ export default [
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+
+=========
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -153,6 +209,9 @@ export default [
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoria": "movimentar o corpo",
+
+=========
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
