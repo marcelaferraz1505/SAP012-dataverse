@@ -10,7 +10,7 @@ export default [
         
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
-        "categoria": "artesanato",
+        "categoriaHobby": "artesanato",
         
       }
     },
@@ -23,7 +23,7 @@ export default [
       "facts": {
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
-        "categoria": "artesanato",
+        "categoriaHobby": "artesanato",
         
       }
   },
@@ -36,7 +36,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
 
     }
   },
@@ -49,7 +49,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
       
     }
   },
@@ -62,7 +62,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
       
     }
   },
@@ -75,7 +75,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
       
     }
   },
@@ -88,7 +88,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
     }
   },
   {
@@ -100,7 +100,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
       
     }
   },
@@ -113,7 +113,7 @@ export default [
     "facts": {
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
+      "categoriaHobby": "beleza",
      
     }
   },
@@ -126,7 +126,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -139,7 +139,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -152,7 +152,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -165,7 +165,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -178,7 +178,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -191,7 +191,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
+      "categoriaHobby": "movimentar o corpo",
       
     }
   },
@@ -204,7 +204,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
-      "categoria": "mente",
+      "categoriaHobby": "mente",
       
     }
   },
@@ -217,7 +217,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$0,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "mente",
+      "categoriaHobby": "mente",
       
     }
   },
@@ -230,7 +230,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "mente",
+      "categoriaHobby": "mente",
       
     }
   },
@@ -243,7 +243,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
+      "categoriaHobby": "natureza",
       
     }
   },
@@ -256,7 +256,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
+      "categoriaHobby": "natureza",
       
     }
   },
@@ -269,7 +269,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$500,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "natureza",
+      "categoriaHobby": "natureza",
       
     }
   },
@@ -282,7 +282,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$300,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "natureza",
+      "categoriaHobby": "natureza",
       
     }
   },
@@ -295,7 +295,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
+      "categoriaHobby": "natureza",
       
     }
   },
@@ -308,7 +308,7 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "artesanato",
+      "categoriaHobby": "artesanato",
       
     }
   }
