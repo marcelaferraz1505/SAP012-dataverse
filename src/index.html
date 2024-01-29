@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Lovers</title>
+  <title>Data Verse</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,30 +13,33 @@
     <h1>Qual o hobby ideal para você?</h1>
   </header>
   <main>
-    <h2>Conheça as mulheres que marcaram a ciência com suas pesquisas e estudos.</h2>
+    <h2>Descubra qual hobby você mais se identifica de forma simples e objetiva.</h2>
     <section class="ordenacao">
       <label for="ordenacao">Ordenação</label>
-      <select name="order" id="ordenacao">
-        <option>A-Z</option>
-        <option>Z-A</option>
+      <select data-testid="selecionar-ordenar" name="ordem" id="ordenacao">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
       </select>
       </section>
       <section class="filtros">
         <label for="filtro">Filtro</label>
-        <select name="filtro" id="filtro">
-          <option>Todos</option>
-          <option>Artesanado</option>
-          <option>Beleza</option>
-          <option>Movimentando Seu Corpo</option>
-          <option>Mente</option>
-          <option>Natureza</option>
+        <select data-testid="selecionar-filtro" name="filtro" id="filtro">
+          <option value="Todos">Todos</option>
+          <option value="Artesanato">Artesanato</option>
+          <option value="Beleza">Beleza</option>
+          <option value="Movimentando Seu Corpo">Movimentando Seu Corpo</option>
+          <option value="Mente">Mente</option>
+          <option value="Natureza">Natureza</option>
         </select>
+      </section>
+      <section>
+        <button data-testid="botao-limpar">Limpar</button>
       </section>
   </main>
   <section id="root">
     <!-- Aqui irão conter todos os cards -->
   </section> 
-  <footer> Jessica Ramos, Marcela Ferraz, Hortencia Silva </footer>
+  <footer>Hortencia Silva, Jessica Ramos e Marcela Ferraz</footer>
   <script src="main.js" type="module"></script>
 </body>
 

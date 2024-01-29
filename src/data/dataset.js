@@ -1,34 +1,7 @@
 export default [
-  {
-<<<<<<<<< Temporary merge branch 1
 
-    "id": "crochet1",
-    "name": "Crochê",
-    "shortDescription": "Uma técnica de criar peças com fios e agulha.",
-    "description": "Crochê é uma forma de arte que consiste em criar peças com fios de lã, algodão ou outros materiais, usando uma agulha especial que tem um gancho na ponta. Com o crochê, pode-se fazer vários tipos de objetos, como roupas, acessórios, bikinis, bolsas, tapetes, mantas, bonecos, etc. Para fazer crochê, é necessário aprender a fazer pontos, carreiras, cores e padrões diferentes. Crochê é uma técnica que ajuda a desenvolver a criatividade, a coordenação motora, a paciência e o relaxamento mental.",
-    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/croche.jpeg?raw=true",
-    "facts": {
-
-      "custoParaIniciar": "R$50,00", // BRL
-      "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
-      "categoria": "artesanato",
-
-    }
-  },
-  {
-    "id": "scrapbooking2",
-    "name": "Scrapbooking",
-    "shortDescription": "Uma forma de preservar e decorar memórias.",
-    "description": "Scrapbooking é uma arte de guardar e enfeitar memórias, como fotografias, cartas, e outros itens que tenham valor sentimental, usando diversos materiais, como papéis coloridos, adesivos temáticos, fitas decorativas, botões, e outros enfeites. Scrapbooking pode ser feito em diferentes formatos, como álbuns, cadernos, quadros, e outros suportes, de acordo com o tema e o estilo escolhidos. Scrapbooking exige conhecimento de técnicas, como recortar, colar, dobrar, e outras, e de elementos, como cores, formas, texturas, e outros, que harmonizem com as memórias. Scrapbooking é uma maneira de guardar e enfeitar memórias, e também de expressar sentimentos e emoções através da arte.",
-    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/scrapbooking.jpeg?raw=true",
-    "facts": {
-      "custoParaIniciar": "R$100,00", // BRL
-      "nivelDeDificuldade": 2,
-      "categoria": "artesanato",
-
-    }
-=========
-    
+  { 
+  
       "id": "crochet1",
       "name": "Crochê",
       "shortDescription": "Uma técnica de criar peças com fios e agulha.",
@@ -39,7 +12,7 @@ export default [
         "custoParaIniciar": "R$50,00", // BRL
         "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
         "categoriaHobby": "artesanato",
-        
+        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",      
       }
     },
     {
@@ -52,23 +25,20 @@ export default [
         "custoParaIniciar": "R$100,00", // BRL
         "nivelDeDificuldade": 2,
         "categoriaHobby": "artesanato",
-        
+        "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc.",
       }
->>>>>>>>> Temporary merge branch 2
   },
   {
     "id": "soapMaking3",
     "name": "Fazer sabonetes",
-    "shortDescription": "Uma arte de criar sabonetes com diferentes aromas e formas.",
+    "shortDescription": "A arte de criar sabonetes com diferentes aromas.",
     "description": "Fazer sabonetes é uma arte de produzir sabonetes artesanais com aromas, cores, formas e propriedades diversos, usando ingredientes variados, como glicerina, óleos essenciais, moldes, flores secas, corantes, extratos, etc. Fazer sabonetes pode ser para uso pessoal, por hobby, para dar de presente, para vender ou para enfeitar. Fazer sabonetes requer saber fazer receitas, medir ingredientes, usar utensílios, etc. Fazer sabonetes é uma arte de criar sabonetes personalizados e uma forma de cuidar da pele e do bem-estar com produtos naturais.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/sabonetes.jpeg?raw=true",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "artesanato",
-      "materialNecessario": "Glicerina, óleos essenciais, corantes, extratos, formas, panela, etc.",
-
-
+      "materialNecessario": "Glicerina, óleos essenciais, extratos, formas, etc.",
     }
   },
   {
@@ -80,12 +50,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "artesanato",
-
-=========
       "categoriaHobby": "artesanato",
-      
->>>>>>>>> Temporary merge branch 2
+      "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc.",
     }
   },
   {
@@ -97,12 +63,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "artesanato",
-
-=========
       "categoriaHobby": "artesanato",
-      
->>>>>>>>> Temporary merge branch 2
+      "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc.",
     }
   },
   {
@@ -114,11 +76,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
-
-=========
       "categoriaHobby": "beleza",
-      
+      "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc.",
     }
   },
   {
@@ -131,8 +90,7 @@ export default [
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
-      "materialNecessario": "Esmaltes, adesivos, pedrarias, glitter, alicate, lixa, palito, etc.",
-
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, alicate, etc.",
     }
   },
   {
@@ -144,11 +102,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
-
-=========
       "categoriaHobby": "beleza",
-      
+      "materialNecessario": "Produtos, acessórios e ferramentas para cabelo.",
     }
   },
   {
@@ -160,11 +115,8 @@ export default [
     "facts": {
       "custoParaInicia": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "beleza",
-
-=========
       "categoriaHobby": "beleza",
-     
+      "materialNecessario": "Produtos cosméticos para pele.",
     }
   },
   {
@@ -176,11 +128,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-
-=========
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupas, calçados e acessórios confortáveis.",
     }
   },
   {
@@ -192,11 +141,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-
-=========
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc.",
     }
   },
   {
@@ -208,11 +154,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-
-=========
       "categoriaHobby": "movimentar o corpo",
-      
+      "materialNecessario": "Roupa de banho, touca, óculos, etc.",
     }
   },
   {
@@ -224,8 +167,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-      
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, mochila, garrafa de água, lanche, etc.",
     }
   },
   {
@@ -237,8 +180,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-      
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, acessórios, etc.",
     }
   },
   {
@@ -250,21 +193,20 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "movimentar o corpo",
-      
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, colchonete, bola, elástico, rolo, etc.",
     }
   },
   {
     "id": "reading16",
     "name": "Ler",
     "shortDescription": "Uma forma de viajar sem sair do lugar e aprender novas coisas.",
-    "description": "Ler é uma atividade que consiste em interpretar e compreender textos escritos, que podem ser de diferentes gêneros, como romances, contos, poemas, ensaios, biografias, reportagens, etc. Ler é uma forma de se transportar para outras realidades, conhecer novas culturas, ampliar o vocabulário, desenvolver o senso crítico, estimular a imaginação e adquirir conhecimento. Ler pode ser feito em livros, revistas, jornais, e-books, sites, blogs, etc., dependendo da preferência e da disponibilidade do leitor.",
-    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/leitura.jpeg?raw=true",
+    "description":"Ler é uma atividade que consiste em interpretar e compreender textos escritos, que podem ser de diferentes gêneros, como romances, poemas, ensaios, biografias, reportagens, etc. Ler é uma forma de se transportar para outras realidades, conhecer novas culturas, ampliar o vocabulário, desenvolver o senso crítico, estimular a imaginação e adquirir conhecimento. Ler pode ser feito em livros, revistas, jornais, e-books, sites, blogs, etc., dependendo da preferência e da disponibilidade do leitor.Ler também é uma forma de se comunicar com outras pessoas, expressar ideias, sentimentos, opiniões e emoções. Ler pode ser um hábito prazeroso, que proporciona relaxamento, inspiração e aprendizado.",    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/leitura.jpeg?raw=true",
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 1,
-      "categoria": "mente",
-      
+      "categoriaHobby": "mente",
+      "materialNecessario": "Livros, revistas, jornais, e-books, sites, blogs, etc.",
     }
   },
   {
@@ -276,8 +218,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$0,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "mente",
-      
+      "categoriaHobby": "mente",
+      "materialNecessario": "Papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
@@ -289,8 +231,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$50,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "mente",
-      
+      "categoriaHobby": "mente",
+      "materialNecessario": "Quebra-cabeças, papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
@@ -302,8 +244,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
-      
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Vasos, terra, sementes, mudas, regador, tesoura, etc.",
     }
   },
   {
@@ -315,8 +257,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
-      
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Binóculos, câmera, guia de aves, caderno, caneta, etc.",
     }
   },
   {
@@ -328,8 +270,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$500,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "natureza",
-      
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Câmera, lente, tripé, cartão de memória, bateria, etc.",
     }
   },
   {
@@ -341,8 +283,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$300,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "natureza",
-      
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Barraca, saco de dormir, lanterna, fósforo, comida, água, etc.",
     }
   },
   {
@@ -354,8 +296,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
-      "categoria": "natureza",
-      
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Ingredientes, utensílios, receitas, temperos, etc.",
     }
   },
   {
@@ -367,8 +309,8 @@ export default [
     "facts": {
       "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 3,
-      "categoria": "artesanato",
-      
+      "categoriaHobby": "artesanato",
+      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, etc.",
     }
   }
 ];
