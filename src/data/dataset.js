@@ -1,6 +1,7 @@
 export default [
-  {
-    
+
+  { 
+  
       "id": "crochet1",
       "name": "Crochê",
       "shortDescription": "Uma técnica de criar peças com fios e agulha.",
