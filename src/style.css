@@ -39,7 +39,7 @@ select {
 .containerLi {
   border-radius:#f1e5ff solid 25px;
   background-color: #bd8ff4c4;
-  
+  width: 220px;
 }
   
 ul {
@@ -66,6 +66,8 @@ dl {
 .imagem_card {
     height: 150px;
     width: 150px;
+    border-radius: 15px;
+    
    }
 
 footer {
