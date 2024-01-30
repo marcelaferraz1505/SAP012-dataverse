@@ -1,84 +1,75 @@
-
-.container {
-    border: 1px black solid ;
-    display: flex  ;
-    flex-wrap: wrap;
-} 
-.containerLi {
-    border: 1px black solid ;
-    display: flex  ;
-    flex-wrap: wrap;
-
-}
 header{
-    background-color: aliceblue;
-    font-size: 36px;
+    
 }
 
-h1 {
-    position: relative;
-    color: #2d2d37;
-    font-size: 36px;
-    text-align: left;
-    padding-left: 27px;
-    margin-bottom: -250px;
-    font-weight: 700;
-    max-width: 365px;
-  }
-  
-  h1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 20px;
-    height: 100%;
-    width: 4px;
-    border-radius: 8px;
-    background-color: #e11d48;
-  }
-  
+body {
+background-color: #f1e5ff;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
 h2 {
-    color: #e11d48;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 250px;
-  }
+  
+}
+
+.containerFiltro {
+  font-size: 20px;
+}
+
+button{
+  font-size: 16px;
+  border: #8638e5 solid;
+  border-radius: 25px;
+}
+select {
+  font-size: 16px;
+}
+/* todo a disposição dos cards */
+.container {
+  padding-left: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  } 
+.textoCard{
+  
+}
+.containerLi {
+  border-radius:#f1e5ff solid 25px;
+  background-color: #bd8ff4c4;
+  width: 220px;
+}
   
 ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-end ;
+    border: #8638e5;
+    /* display: inline-block; */
   }
   
 li {
-    max-width: 229px;
+    list-style: none;
   }
-  
+  /* texto fixo ex. categoria  */
+dt{
+
+}  
+/* parte dinâmina do texto do card ex. beleza */
 dd {
-    margin-left: 0;
+  display: inline-block;
+  width: 75%;
   }
-  
+  /* todo o card */
 dl {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    min-height: 555px;
-    margin-top: 10px;
+  display: inline-block; 
   }
 .imagem_card {
-    width: 100px;
-    height: 100px;
-}
-select {
-    font-size: 18px;
-    color: beige;
-    border: none;
-    background-color: aqua; 
-}
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    
+   }
 
 footer {
-    background-color: black;
+    
 }
