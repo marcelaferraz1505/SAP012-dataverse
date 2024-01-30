@@ -14,10 +14,7 @@ export const renderItems = (data) => {
         <dt>Categoria:</dt>
         <dd itemprop="keywords"> ${item.facts.categoriaHobby}</dd>
         <dt>Material necessário:</dt><dd itemprop="description"> ${item.facts.materialNecessario}</dd>
-        <dt>Nome:</dt><dd itemprop="name"> ${item.name}</dd>
-        <dd itemprop="priceRange"> Valor: ${item.facts.custoParaIniciar}</dd>
-        <dd itemprop="keywords"> Categoria: ${item.facts.categoriaHobby}</dd>
-        <dd itemprop="description"> Material necessário: ${item.facts.materialNecessario}</dd>
+>>>>>>> 9e5c1292dbcafe1b8bbb69ca42fd007080e6805b
         </div>
         </dl>
     </li>
