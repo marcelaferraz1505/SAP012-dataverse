@@ -45,9 +45,11 @@ select {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 150px;
   } 
+
 .textoCard{
-  
 }
 .containerLi {
   border-radius:#f1e5ff solid 25px;
@@ -71,6 +73,7 @@ dt{
 dd {
   display: inline-block;
   width: 75%;
+  
   }
   /* todo o card */
 dl {
