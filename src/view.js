@@ -9,9 +9,9 @@ export const renderItems = (data) => {
         <dt><img src="${item.imageUrl}" alt="imagem do card" itemprop="${item.name}" class="imagem_card"  /></dt>
         <div class="textoCard">
         <dt>Nome:</dt><dd itemprop="name"> ${item.name}</dd>
-        <dt>Valor:</dt><dd itemprop="priceRange"> ${item.facts.custoParaIniciar}</dd>
-        <dt>Categoria:</dt><dd itemprop="keywords"> ${item.facts.categoriaHobby}</dd>
-        <dt>Material necessário:</dt><dd itemprop="description"> ${item.facts.materialNecessario}</dd>
+        <dd itemprop="priceRange"> Valor: ${item.facts.custoParaIniciar}</dd>
+        <dd itemprop="keywords"> Categoria: ${item.facts.categoriaHobby}</dd>
+        <dd itemprop="description"> Material necessário: ${item.facts.materialNecessario}</dd>
         </div>
         </dl>
     </li>
