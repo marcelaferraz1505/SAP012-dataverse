@@ -1,9 +1,9 @@
 export const renderItems = (data) => {
-  const cardHobby = document.createElement('ul');
-  cardHobby.classList.add('container');
+  const listaHobby = document.createElement('ul');
+  listaHobby.classList.add('container');
   
   data.forEach((item) => {
-    cardHobby.innerHTML+=`
+    listaHobby.innerHTML+=`
     <li itemscope itemtype="http://https://schema.org/HobbyShop" class="containerLi"> 
       <dl itemscope itemtype="#hobby">
         <dt><img src="${item.imageUrl}" alt="imagem do card" itemprop="${item.name}" class="imagem_card"  /></dt>
@@ -19,6 +19,6 @@ export const renderItems = (data) => {
   })
 
 
-  return cardHobby;
+  return listaHobby;
 };
 
