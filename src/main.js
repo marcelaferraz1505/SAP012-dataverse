@@ -1,4 +1,4 @@
-import { } from './dataFunctions.js';
+import { filterBy } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -19,7 +19,7 @@ selCategoria.addEventListener('change', (event) => {
 
     const mostrarCategoria = event.target.value;
 
-    cardsExibidos = filterBy(data, 'filtroCategoria', mostrarCategoria)
+    cardsExibidos = filterBy(data, 'categoriaHobby', mostrarCategoria)
     listaHobby.innerHTML = ""
     listaHobby.appendChild(renderItems(cardsExibidos))
 
