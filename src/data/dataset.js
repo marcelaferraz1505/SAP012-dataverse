@@ -150,7 +150,7 @@ export default [
     "name": "Nadar",
     "shortDescription": "Uma forma de se exercitar, se refrescar e se relaxar com água e nado.",
     "description": "Nadar é uma forma de se exercitar, se refrescar e se relaxar com água e nado, usando os braços, as pernas, o tronco e a respiração. Nadar pode ser feito em diferentes estilos, como crawl, costas, peito, borboleta, etc., dependendo da preferência e da habilidade do nadador. Nadar pode ser feito em piscinas, rios, lagos ou no mar, dependendo da disponibilidade e da segurança do local. Nadar é uma forma de se exercitar, se refrescar e se relaxar com água e nado, além de ser uma forma de melhorar a saúde, a circulação, a flexibilidade e a autoestima.",
-    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/nadar.jpeg?raw=true",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/nadar1.jpeg?raw=true",
     "facts": {
       "custoParaIniciar": "R$100,00", // BRL
       "nivelDeDificuldade": 2,
