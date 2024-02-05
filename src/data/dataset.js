@@ -113,7 +113,7 @@ export default [
     "description": "Preservar a pele torna-se crucial para prevenir e tratar problemas como acne, manchas e rugas, ao mesmo tempo que desacelera o envelhecimento. Utilizando produtos cosméticos como sabonete, tônico, hidratante, protetor solar, esfoliante e máscara, os cuidados cutâneos podem ser realizados em casa, clínicas ou salões, adaptando-se ao tipo de pele e ao objetivo do tratamento. Este processo exige conhecimento em técnicas como limpeza, tonificação, hidratação e proteção, assim como compreensão dos produtos em termos de tipos, texturas e ingredientes. Além de prevenir problemas dermatológicos e retardar o envelhecimento, os cuidados com a pele promovem a saúde e a autoestima.",
     "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cuidados%20com%20a%20pele.jpeg?raw=true",
     "facts": {
-      "custoParaInicia": "R$200,00", // BRL
+      "custoParaIniciar": "R$200,00", // BRL
       "nivelDeDificuldade": 2,
       "categoriaHobby": "beleza",
       "materialNecessario": "Produtos cosméticos para pele.",

@@ -7,6 +7,7 @@ const filteredData = data.filter(item => {
   return filteredData;
 };
 
-export const anotherExample = () => {
+export const ordenarHobbies = () => {
+
   return [];
 };

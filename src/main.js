@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 })
 
+
 // listaHobby.appendChild(renderItems(data));
 // filtro de dados 
 const selCategoria = document.querySelector('[name="filtroCategoria"]');
@@ -24,3 +25,6 @@ selCategoria.addEventListener('change', (event) => {
     listaHobby.appendChild(renderItems(cardsExibidos))
 
 })
+
+// ordenação
+
