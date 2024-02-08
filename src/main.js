@@ -1,5 +1,6 @@
-import { filterBy } from './dataFunctions.js';
+import { filterBy, ordenarHobbies } from './dataFunctions.js';
 import { renderItems } from './view.js';
+
 
 import data from './data/dataset.js';
 
@@ -7,7 +8,7 @@ import data from './data/dataset.js';
 let cardsExibidos = data;
 const listaHobby = document.querySelector("#root");
 document.addEventListener("DOMContentLoaded", () => {
-    listaHobby.appendChild(renderItems(data))
+  listaHobby.appendChild(renderItems(data))
 
 })
 
@@ -18,13 +19,13 @@ const selCategoria = document.querySelector('[name="filtroCategoria"]');
 
 selCategoria.addEventListener('change', (event) => {
 
-    const mostrarCategoria = event.target.value;
+  const mostrarCategoria = event.target.value;
 
-    cardsExibidos = filterBy(data, 'categoriaHobby', mostrarCategoria)
-    listaHobby.innerHTML = ""
-    listaHobby.appendChild(renderItems(cardsExibidos))
+  cardsExibidos = filterBy(data, 'categoriaHobby', mostrarCategoria)
+  listaHobby.innerHTML = ""
+  listaHobby.appendChild(renderItems(cardsExibidos))
 
 })
 
 // ordenação
-
+console.log(ordenarHobbies(data, "custoParaIniciar", "asc"))

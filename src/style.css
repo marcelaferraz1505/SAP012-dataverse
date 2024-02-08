@@ -2,7 +2,8 @@ header{
 margin: 0%;
 }
 body {
-background-color: #f3def0;;
+background-color: #f3def0;
+margin: 0%;
 }
 h1{
   font-family: "Raleway", sans-serif;
@@ -100,7 +101,7 @@ background: #ddb6d8;
              6px -6px 9px #ecc3e7; */
   /* border-radius:25px;
   background-color: #bd8ff4c4; */
-  width: 267px;
+  width: 272px;
   height: 460px;
   display: flex;
   justify-content: center;
@@ -110,6 +111,7 @@ background: #ddb6d8;
     margin-top: 60px;
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 justify-content: center;
 gap: 25px;
 font-size: 20px;
@@ -156,16 +158,17 @@ dl {
    }
 
 footer {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: "Raleway", sans-serif;
   font-size: 20px;
 color: #422a55;
-border-radius: 0px;
+margin: 0;
+width: 100%;
 background: #ddb6d8;
-box-shadow:  -6px 6px 9px #cea9c9,
-             6px -6px 9px #ecc3e7;
+/* box-shadow:  -6px 6px 9px #cea9c9,
+             6px -6px 9px #ecc3e7; */
              text-align: center;
 }
-
+/* fonte do Google */
 raleway-<uniquifier> {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -173,6 +176,7 @@ raleway-<uniquifier> {
   font-style: normal;
 }
 
+/* ondas */
 .custom-shape-divider-top-1707265856 {
   position: absolute;
   top: 0;
