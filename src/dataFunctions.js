@@ -18,7 +18,7 @@ export const filterBy = (data, filterBy, value) =>{
 // }
 // };
 
-export const ordenarHobbies = (data, sortBy, value) => { 
+export const sortBy = (data, sortBy, value) => { 
   // mais caro
   if (value === "asc"){
     return data.sort((a, b ) => {return a.facts[sortBy] - b.facts[sortBy]})
@@ -27,3 +27,4 @@ export const ordenarHobbies = (data, sortBy, value) => {
     return data.sort((a, b ) => {return b.facts[sortBy] - a.facts[sortBy]})
   }
 }
+
