@@ -11,7 +11,7 @@ export const data = [
     imageUrl:
       "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/croche.jpeg?raw=true",
     facts: {
-      custoParaIniciar: "R$50,00", // BRL
+      custoParaIniciar: 50.00, // BRL
       nivelDeDificuldade: 2, // 1: fácil, 2: mediano, 3: difícil
       categoriaHobby: "artesanato",
       materialNecessario: "Fios, agulha de crochê, tesoura, etc.",
@@ -26,7 +26,7 @@ export const data = [
     imageUrl:
       "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/scrapbooking.jpeg?raw=true",
     facts: {
-      custoParaIniciar: "R$100,00", // BRL
+      custoParaIniciar: 100.00, // BRL
       nivelDeDificuldade: 2,
       categoriaHobby: "artesanato",
       materialNecessario:
@@ -42,7 +42,7 @@ export const data = [
     imageUrl:
       "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/sabonetes.jpeg?raw=true",
     facts: {
-      custoParaIniciar: "R$100,00", // BRL
+      custoParaIniciar: 100.00, // BRL
       nivelDeDificuldade: 2,
       categoriaHobby: "artesanato",
       materialNecessario: "Glicerina, óleos essenciais, extratos, formas, etc.",
@@ -57,7 +57,7 @@ export const data = [
     imageUrl:
       "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cria%C3%A7%C3%A3oDeVelas.jpeg?raw=true",
     facts: {
-      custoParaIniciar: "R$100,00", // BRL
+      custoParaIniciar: 100.00, // BRL
       nivelDeDificuldade: 2,
       categoriaHobby: "artesanato",
       materialNecessario:
@@ -73,7 +73,7 @@ export const data = [
     imageUrl:
       "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cer%C3%A2mica.jpeg?raw=true",
     facts: {
-      custoParaIniciar: "R$200,00", // BRL
+      custoParaIniciar: 200.00, // BRL
       nivelDeDificuldade: 3,
       categoriaHobby: "artesanato",
       materialNecessario:
