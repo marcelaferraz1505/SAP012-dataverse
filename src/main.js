@@ -2,6 +2,7 @@ import { filterBy, sortBy} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
+
 let cardsExibidos = data;
 const listaHobby = document.querySelector("#root");
 document.addEventListener("DOMContentLoaded", () => {
@@ -36,7 +37,15 @@ selOrdem.addEventListener('change', (event) => {
 
 // botao de limpar
 
-// const button = document.getElementById('[data-testid="botao-limpar"]');
-// button.addEventListener('click', () {
-  
-// })
+
+const button = document.getElementById('[data-testid="botao-limpar"]');
+
+button.addEventListener('click', () => {
+  listaHobby.innerHTML = ""; 
+  listaHobby.appendChild(renderItems(originalCards)); 
+})  
+
+// função computestats
+// colocar um span no html com id e o texto resultados
+// usar template string  ex. ${cards} resultados
+// usar reduce
