@@ -8,17 +8,18 @@ const listaHobby = document.querySelector("#root");
 
 document.addEventListener("DOMContentLoaded", () => {
   listaHobby.appendChild(renderItems(data))
-  computeStats(data)
+  const stats = computeStats(data) 
   const spanMediaCusto = document.createElement("span");
   const spanMediaNivelDificuldade = document.createElement("span");
-  spanMediaCusto.textContent = `Média de Custo: ${spanMediaCusto}`;
-  spanMediaNivelDificuldade.textContent = `Média de Nível de Dificuldade: ${spanMediaNivelDificuldade}`;
+  spanMediaCusto.textContent = `Média de Custo: ${stats.mediaCusto}`;
+  spanMediaNivelDificuldade.textContent = `Média de Nível de Dificuldade: ${stats.mediaNivelDificuldade}`;
   const statsContainer = document.getElementById("calcularNivelMedioDeDificuldade");
   statsContainer.appendChild(spanMediaCusto);
   statsContainer.appendChild(spanMediaNivelDificuldade);
   const statsContainer2  = document.getElementById("custoParaIniciar");
   statsContainer2.appendChild(spanMediaCusto);
   statsContainer2.appendChild(spanMediaNivelDificuldade);
+  
 });
 // listaHobby.appendChild(renderItems(data));
 // filtro de dados 
@@ -28,6 +29,7 @@ selCategoria.addEventListener('change', (event) => {
 
   const mostrarCategoria = event.target.value;
   cardsExibidos = filterBy(data, 'categoriaHobby', mostrarCategoria)
+  
   listaHobby.innerHTML = ""
   listaHobby.appendChild(renderItems(cardsExibidos))
 
@@ -64,6 +66,7 @@ mostrarTodos.addEventListener("click", () => {
   // renderia novamente
   listaHobby.appendChild(renderItems(data)); 
 }) 
+
 
 
 
