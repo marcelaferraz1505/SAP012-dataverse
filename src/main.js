@@ -115,7 +115,7 @@ mostrarTodos.addEventListener("click", () => {
     
   //zera a média de custo
   statsContainer2.innerHTML = "";
-  // renderia novamente
+  // renderiza novamente
   listaHobby.appendChild(renderItems(data)); 
 });
 
