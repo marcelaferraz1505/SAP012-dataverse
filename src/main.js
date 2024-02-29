@@ -101,6 +101,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 const mostrarTodos = document.querySelector('[data-testid="button-clear"]');
+const statsContainer = document.getElementById('calcularNivelMedioDeDificuldade'); 
+const statsContainer2 = document.getElementById('custoParaIniciar'); 
+const selOrdem = document.getElementById('ordenacao');
+const selCategoria = document.getElementById('filtro');
 
 mostrarTodos.addEventListener("click", () => {
   // zera a lista de cards
@@ -113,10 +117,10 @@ mostrarTodos.addEventListener("click", () => {
   selCategoria.value = "Todos"; 
 
   //zera a média de dificuldade
-  statsContainer.innerHTML = "";
+  statsContainer.innerHTML = "Media Nível de Dificuldade: 0";
     
   //zera a média de custo
-  statsContainer2.innerHTML = "";
+  statsContainer2.innerHTML = "Media Custo: R$0,00";
 
   // renderiza novamente
   listaHobby.appendChild(renderItems(data)); 
