@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const statsContainer2 = document.getElementById("custoParaIniciar");
 
   const selCategoria = document.querySelector('[name="filtroCategoria"]');
-  const selOrdem = document.getElementById("ordenacao");
+  const selOrdem = document.querySelector("#ordenacao");
 
   selCategoria.addEventListener('change', (event) => {
     const mostrarCategoria = event.target.value;
@@ -101,10 +101,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 const mostrarTodos = document.querySelector('[data-testid="button-clear"]');
-const statsContainer = document.getElementById('calcularNivelMedioDeDificuldade'); 
-const statsContainer2 = document.getElementById('custoParaIniciar'); 
-const selOrdem = document.getElementById('ordenacao');
-const selCategoria = document.getElementById('filtro');
+const statsContainer = document.querySelector('#calcularNivelMedioDeDificuldade'); 
+const statsContainer2 = document.querySelector('#custoParaIniciar'); 
+const selOrdem = document.querySelector('#ordenacao');
+const selCategoria = document.querySelector('#filtro');
 
 mostrarTodos.addEventListener("click", () => {
   // zera a lista de cards
