@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const statsContainer2 = document.getElementById("custoParaIniciar");
 
   const selCategoria = document.querySelector('[name="filtroCategoria"]');
-  const selOrdem = document.querySelector('[name="ordem"]');
+  const selOrdem = document.getElementById("ordenacao");
 
   selCategoria.addEventListener('change', (event) => {
     const mostrarCategoria = event.target.value;
@@ -87,6 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
     statsContainer.appendChild(mediaNivelDificuldade);
     statsContainer2.appendChild(mediaCustoParaIniciar);
   });
+
+
 
   selOrdem.addEventListener('change', (event) => {
     const mostrarOrdem = event.target.value;
@@ -115,8 +117,10 @@ mostrarTodos.addEventListener("click", () => {
     
   //zera a média de custo
   statsContainer2.innerHTML = "";
+
   // renderiza novamente
   listaHobby.appendChild(renderItems(data)); 
+
 });
 
 
