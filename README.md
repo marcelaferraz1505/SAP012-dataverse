@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido por Jessica Ramos, Hortência Viana e Marcela Ferr
 * A aplicação permite à usuária reiniciar a aplicação, limpando filtros e ordenamentos, com um botão "Mostrar todos".
 * As aplicações de filtrar, limpar, ordenar, não recarregam a página, mas sim adicionam conteúdo de maneira dinâmica via JavaScript.
 
-
+**![apresentaçãoDoSiteEmFuncionamento](C:\Users\marce\Downloads\videoparaGif(1).gif)**
 
 ## 5. Geração de dados / Protótipo
 * Os dados foram gerados através de prompt no Bing conforme a imagem abaixo:
