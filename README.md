@@ -35,10 +35,7 @@ Esse projeto foi desenvolvido por Jessica Ramos, Hortência Viana e Marcela Ferr
 * A ordenação serve para que a usuária organize as categorias em ordem alfabética, tanto de forma ascendente quanto descendente.
 * A aplicação permite à usuária reiniciar a aplicação, limpando filtros e ordenamentos, com um botão "Mostrar todos".
 * As aplicações de filtrar, limpar, ordenar, não recarregam a página, mas sim adicionam conteúdo de maneira dinâmica via JavaScript.
-
-//aqui conterá o gif do localhost 
-
-![apresentaçãoDoSiteEmFuncionamento](C:\Users\marce\Downloads\videoparaGif(1).gif)
+<img src="C:\Users\marce\Downloads\videoparaGif(1).gif"> 
 
 ## 5. Geração de dados / Protótipo
 * Os dados foram gerados através de prompt no Bing conforme a imagem abaixo:
