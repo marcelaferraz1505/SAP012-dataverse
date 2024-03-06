@@ -11,7 +11,7 @@ export const renderItems = (data) => {
         <div class="tituloHobby">
         <dd itemprop="name">${item.name}</dd><hr>
         </div>
-        <dd itemprop="priceRange">Custo inicial:R$ ${item.facts.custoParaIniciar},00</dd>
+        <dd  itemprop="sort-order" class="priceRange">Custo inicial: R$${item.facts.custoParaIniciar},00</dd>
         <dd itemprop="keywords"> Categoria: ${item.facts.categoriaHobby}</dd>
         <dd itemprop="description"> Material necessário: ${item.facts.materialNecessario}</dd>
         </div>
