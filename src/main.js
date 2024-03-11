@@ -2,10 +2,10 @@ import { filterBy, sortBy, computeStats } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
 import data from "./data/dataset.js";
 
-let cardsExibidos = data;
-const listaHobby = document.querySelector("#root");
+let cardsExibidos = data; //representa os dados iniciais
+const listaHobby = document.querySelector("#root");//referência ao elemento root no html 
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { //evento de carregamento da página. Este evento é acionado quando o HTML foi completamente carregado. O código dentro dessa função será executado após o carregamento da página.
   listaHobby.appendChild(renderItems(data));
 
   const statsContainer = document.getElementById(
