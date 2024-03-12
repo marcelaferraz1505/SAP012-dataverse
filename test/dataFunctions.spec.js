@@ -1,18 +1,9 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import { filterBy } from "../src/dataFunctions";
+import { data as d } from "./data.js";
 
-console.log(fakeData);
-
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+describe("testes de filtro", () => {
+  test.only("por categoria de artesanato", () => {
+    const filteredData = filterBy(d, "categoriaHobby", "artesanato");
+    expect(filteredData.length).toBe(1);
   });
 });

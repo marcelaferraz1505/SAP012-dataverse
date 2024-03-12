@@ -1,378 +1,316 @@
 export default [
-  {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+
+  { 
+  
+      "id": "crochet1",
+      "name": "Crochê",
+      "shortDescription": "Uma técnica de criar peças com fios e agulha.",
+      "description": "Crochê é uma forma de arte que consiste em criar peças com fios de lã, algodão ou outros materiais, usando uma agulha especial que tem um gancho na ponta. Com o crochê, pode-se fazer vários tipos de objetos, como roupas, acessórios, bikinis, bolsas, tapetes, mantas, bonecos, etc. Para fazer crochê, é necessário aprender a fazer pontos, carreiras, cores e padrões diferentes. Crochê é uma técnica que ajuda a desenvolver a criatividade, a coordenação motora, a paciência e o relaxamento mental.",
+      "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/croche.jpeg?raw=true",
+      "facts": {
+        
+        "custoParaIniciar": 50.00, // BRL
+        "nivelDeDificuldade": 2, // 1: fácil, 2: mediano, 3: difícil
+        "categoriaHobby": "artesanato",
+        "materialNecessario": "Fios, agulha de crochê, tesoura, etc.",      
+      }
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    {
+      "id": "scrapbooking2",
+      "name": "Scrapbooking",
+      "shortDescription": "Uma forma de preservar e decorar memórias.",
+      "description": "Scrapbooking é uma arte de guardar e enfeitar memórias, como fotografias, cartas, e outros itens que tenham valor sentimental, usando diversos materiais, como papéis coloridos, adesivos temáticos, fitas decorativas, botões, e outros enfeites. Scrapbooking pode ser feito em diferentes formatos, como álbuns, cadernos, quadros, e outros suportes, de acordo com o tema e o estilo escolhidos. Scrapbooking exige conhecimento de técnicas, como recortar, colar, dobrar, e outras, e de elementos, como cores, formas, texturas, e outros, que harmonizem com as memórias. Scrapbooking é uma maneira de guardar e enfeitar memórias, e também de expressar sentimentos e emoções através da arte.",
+      "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/scrapbooking.jpeg?raw=true",
+      "facts": {
+        "custoParaIniciar": 100.00, // BRL
+        "nivelDeDificuldade": 2,
+        "categoriaHobby": "artesanato",
+        "materialNecessario": "Papéis, adesivos, fitas, botões, tesoura, cola, etc.",
+      }
+  },
+  {
+    "id": "soapMaking3",
+    "name": "Fazer sabonetes",
+    "shortDescription": "A arte de criar sabonetes com diferentes aromas.",
+    "description": "Fazer sabonetes é uma arte de produzir sabonetes artesanais com aromas, cores, formas e propriedades diversos, usando ingredientes variados, como glicerina, óleos essenciais, moldes, flores secas, corantes, extratos, etc. Fazer sabonetes pode ser para uso pessoal, por hobby, para dar de presente, para vender ou para enfeitar. Fazer sabonetes requer saber fazer receitas, medir ingredientes, usar utensílios, etc. Fazer sabonetes é uma arte de criar sabonetes personalizados e uma forma de cuidar da pele e do bem-estar com produtos naturais.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/sabonetes.jpeg?raw=true",
+    "facts": {
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "artesanato",
+      "materialNecessario": "Glicerina, óleos essenciais, extratos, formas, etc.",
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "candleMaking4",
+    "name": "Fazer velas",
+    "shortDescription": "Uma arte de criar velas com diferentes aromas e formas.",
+    "description": "Fazer velas é uma arte de produzir velas artesanais com diferentes aromas, cores, formas e propriedades, usando diversos ingredientes, como cera, pavio, óleos essenciais, corantes, extratos, etc. Fazer velas pode ser uma atividade para uso próprio, para dar de presente, para vender ou para decorar ambientes. Fazer velas requer conhecimento de receitas, medidas, ingredientes, utensílios, etc., que devem ser adequados ao tipo de vela desejado. Fazer velas é uma arte de criar velas personalizadas e uma forma de criar um clima aconchegante e relaxante com produtos naturais e aromáticos.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cria%C3%A7%C3%A3oDeVelas.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "artesanato",
+      "materialNecessario": "Cera, pavio, óleos essenciais, corantes, formas, panela, etc.",
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "pottery5",
+    "name": "Cerâmica",
+    "shortDescription": "Uma arte de modelar objetos com argila ou barro.",
+    "description": "Cerâmica é uma arte de modelar objetos com argila ou barro, usando as mãos, ferramentas ou um torno. Cerâmica pode ser feita para fazer vasos, xícaras, bule, brincos, miçangas, anéis, objetos de decoração, corujas, tigelas, pratos, copos, esculturas, etc. Cerâmica requer conhecimento de técnicas, como modelagem, secagem, queima, esmaltação, etc., e de materiais, como argila, barro, esmaltes, forno, etc. Cerâmica é uma arte de modelar objetos com argila ou barro, além de ser uma forma de expressar a criatividade e a sensibilidade.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cer%C3%A2mica.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 3,
+      "categoriaHobby": "artesanato",
+      "materialNecessario": "Argila, barro, ferramentas, torno, esmaltes, forno, etc.",
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "makeup6",
+    "name": "Maquiagem",
+    "shortDescription": "Uma forma de realçar a beleza e a autoestima.",
+    "description": "Maquiagem é uma forma de realçar a beleza e a autoestima, usando produtos cosméticos, como base, corretivo, pó, blush, sombra, lápis, rímel, batom, etc. Maquiagem pode ser feita para diferentes ocasiões, como trabalho, festa, casamento, etc., e para diferentes estilos, como natural, clássico, glamouroso, etc. Maquiagem requer conhecimento de técnicas, como preparação da pele, contorno, iluminação, esfumado, delineado, etc., e de produtos, como cores, texturas, acabamentos, etc. Maquiagem é uma forma de realçar a beleza e a autoestima, além de ser uma forma de se divertir e se expressar.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/maquiagem.jpeg.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "beleza",
+      "materialNecessario": "Produtos cosméticos, pincéis, esponjas, espelho, etc.",
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "nailArt7",
+    "name": "Unhas decoradas",
+    "shortDescription": "Uma forma de decorar as unhas com diferentes desenhos e cores.",
+    "description": "Unhas decoradas é uma forma de decorar as unhas com diferentes desenhos e cores, usando esmaltes, adesivos, pedrarias, glitter, etc. Unhas decoradas pode ser feita para diferentes ocasiões, como trabalho, festa, casamento, etc., e para diferentes estilos, como delicado, moderno, divertido, etc. Unhas decoradas requer conhecimento de técnicas, como limpeza, corte, lixa, base, extra-brilho, etc., e de materiais, como esmaltes, adesivos, pedrarias, glitter, etc. Unhas decoradas é uma forma de decorar as unhas com diferentes desenhos e cores, além de ser uma forma de cuidar das mãos e da autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/nailArt.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "custoParaIniciar": 50.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "beleza",
+      "materialNecessario": "Esmaltes, adesivos, pedrarias, alicate, etc.",
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "hairStyling8",
+    "name": "Penteados",
+    "shortDescription": "Uma forma de mudar o visual e o humor com diferentes estilos de cabelo.",
+    "description": "Penteados é uma arte de mudar o visual e o humor com estilos de cabelo variados, usando produtos, acessórios e ferramentas, como gel, spray, presilhas, tiaras, elásticos, escova, secador, chapinha, babyliss, etc. Penteados pode ser para ocasiões diferentes, como trabalho, festa, casamento, etc., e para estilos diferentes, como preso, trançado, cacheado, etc. Penteados requer saber técnicas, como escova, modelagem, trança,  rabo de cavalo, etc., e produtos, como fixador, hidratante, protetor térmico, etc., adequados ao cabelo e ao estilo. Penteados é uma arte de mudar o visual, e uma forma de cuidar dos fios e da autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/penteados.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "beleza",
+      "materialNecessario": "Produtos, acessórios e ferramentas para cabelo.",
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "skincare9",
+    "name": "Cuidados com a pele",
+    "shortDescription": "Uma forma de prevenir e tratar problemas de pele e retardar o envelhecimento.",
+    "description": "Preservar a pele torna-se crucial para prevenir e tratar problemas como acne, manchas e rugas, ao mesmo tempo que desacelera o envelhecimento. Utilizando produtos cosméticos como sabonete, tônico, hidratante, protetor solar, esfoliante e máscara, os cuidados cutâneos podem ser realizados em casa, clínicas ou salões, adaptando-se ao tipo de pele e ao objetivo do tratamento. Este processo exige conhecimento em técnicas como limpeza, tonificação, hidratação e proteção, assim como compreensão dos produtos em termos de tipos, texturas e ingredientes. Além de prevenir problemas dermatológicos e retardar o envelhecimento, os cuidados com a pele promovem a saúde e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cuidados%20com%20a%20pele.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "beleza",
+      "materialNecessario": "Produtos cosméticos para pele.",
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "dancing10",
+    "name": "Dançar",
+    "shortDescription": "Uma forma de se movimentar, se divertir e se expressar com ritmo e música.",
+    "description": "Dançar é uma forma de se movimentar, se divertir e se expressar com ritmo e música, usando o corpo, os gestos, os passos e as coreografias. Dançar pode ser feito em diferentes modalidades, como ballet, jazz, hip hop, salsa, forró, samba, etc., dependendo do gosto e da habilidade do dançarino. Dançar pode ser feito em casa, em academias, em escolas, em festas ou em outros locais adequados. Dançar é uma forma de se movimentar, se divertir e se expressar com ritmo e música, além de ser uma forma de melhorar a saúde, a coordenação, a flexibilidade e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/dan%C3%A7a.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, calçados e acessórios confortáveis.",
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "running11",
+    "name": "Correr",
+    "shortDescription": "Uma forma de se exercitar, se desafiar e se superar com velocidade e resistência.",
+    "description": "Correr é um exercício que desafia e supera a resistência e velocidade do corpo, utilizando as pernas, braços, tronco e respiração. Pode ser praticado em diferentes intensidades, distâncias, terrenos e modalidades, como corrida de rua, de pista, de montanha, de obstáculos, etc., dependendo do objetivo e condicionamento físico. É possível correr em casa, academias, parques, ruas ou outros locais adequados. Além de melhorar a saúde, humor, disposição e autoestima, correr é uma forma de se exercitar, desafiar e superar a si mesmo com velocidade e resistência.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/corrida.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, relógio, fone de ouvido, etc.",
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "swimming12",
+    "name": "Nadar",
+    "shortDescription": "Uma forma de se exercitar, se refrescar e se relaxar com água e nado.",
+    "description": "Nadar é uma forma de se exercitar, se refrescar e se relaxar com água e nado, usando os braços, as pernas, o tronco e a respiração. Nadar pode ser feito em diferentes estilos, como crawl, costas, peito, borboleta, etc., dependendo da preferência e da habilidade do nadador. Nadar pode ser feito em piscinas, rios, lagos ou no mar, dependendo da disponibilidade e da segurança do local. Nadar é uma forma de se exercitar, se refrescar e se relaxar com água e nado, além de ser uma forma de melhorar a saúde, a circulação, a flexibilidade e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/nadar1.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupa de banho, touca, óculos, etc.",
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "hiking13",
+    "name": "Caminhar",
+    "shortDescription": "Uma forma de se exercitar, se aventurar e se conectar com a natureza.",
+    "description": "Caminhar é uma forma de se exercitar, se aventurar e se conectar com a natureza, usando as pernas, os braços, o tronco e a respiração. Caminhar pode ser feito em diferentes intensidades, distâncias, terrenos e paisagens, como trilhas, montanhas, florestas, praias, etc., dependendo do objetivo e do condicionamento do caminhante. Caminhar pode ser feito em casa, em academias, em parques, em ruas ou em outros locais adequados. Caminhar é uma forma de se exercitar, se aventurar e se conectar com a natureza, além de ser uma forma de melhorar a saúde, o humor, a disposição e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/caminhada.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, mochila, garrafa de água, lanche, etc.",
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "aerobics14",
+    "name": "Aeróbica",
+    "shortDescription": "Uma forma de se exercitar, se divertir e se energizar com música e movimento.",
+    "description": "Aeróbica é uma forma de se exercitar, se divertir e se energizar com música e movimento, usando o corpo, os braços, as pernas, o tronco e a respiração. Aeróbica pode ser feita em diferentes modalidades, como step, jump, zumba, etc., dependendo do gosto e da habilidade do praticante. Aeróbica pode ser feita em casa, em academias, em escolas, em festas ou em outros locais adequados. Aeróbica é uma forma de se exercitar, se divertir e se energizar com música e movimento, além de ser uma forma de melhorar a saúde, a coordenação, a flexibilidade e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/aerobica.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, tênis, acessórios, etc.",
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "pilates15",
+    "name": "Pilates",
+    "shortDescription": "Uma forma de se exercitar, se alongar e se fortalecer com equilíbrio e postura.",
+    "description": "Pilates é uma forma de se exercitar, se alongar e se fortalecer com equilíbrio e postura, usando o corpo, a respiração e alguns equipamentos, como bola, elástico, rolo, etc. Pilates pode ser feito em diferentes níveis, desde iniciante até avançado, dependendo do objetivo e do condicionamento do praticante. Pilates pode ser feito em casa, em academias, em clínicas ou em outros locais adequados. Pilates é uma forma de se exercitar, se alongar e se fortalecer com equilíbrio e postura, além de ser uma forma de melhorar a saúde, a circulação, a flexibilidade e a autoestima.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/pilates.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "movimentar o corpo",
+      "materialNecessario": "Roupas, colchonete, bola, elástico, rolo, etc.",
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "reading16",
+    "name": "Ler",
+    "shortDescription": "Uma forma de viajar sem sair do lugar e aprender novas coisas.",
+    "description":"Ler é uma atividade que consiste em interpretar e compreender textos escritos, que podem ser de diferentes gêneros, como romances, poemas, ensaios, biografias, reportagens, etc. Ler é uma forma de se transportar para outras realidades, conhecer novas culturas, ampliar o vocabulário, desenvolver o senso crítico, estimular a imaginação e adquirir conhecimento. Ler pode ser feito em livros, revistas, jornais, e-books, sites, blogs, etc., dependendo da preferência e da disponibilidade do leitor.Ler também é uma forma de se comunicar com outras pessoas, expressar ideias, sentimentos, opiniões e emoções. Ler pode ser um hábito prazeroso, que proporciona relaxamento, inspiração e aprendizado.",    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/leitura.jpeg?raw=true",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "custoParaIniciar": 50.00, // BRL
+      "nivelDeDificuldade": 1,
+      "categoriaHobby": "mente",
+      "materialNecessario": "Livros, revistas, jornais, e-books, sites, blogs, etc.",
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "writing17",
+    "name": "Escrever",
+    "shortDescription": "Uma forma de se expressar, se comunicar e se criar com palavras e ideias.",
+    "description": "Escrever é uma atividade que consiste em produzir textos escritos, que podem ser de diferentes gêneros, como romances, contos, poemas, ensaios, biografias, autobiografia, peças de teatro,  reportagens, etc. Escrever é uma forma de se expressar, se comunicar e se criar com palavras e ideias, usando a linguagem, a gramática, a ortografia, a pontuação, etc. Escrever pode ser feito em papel, em computador, em celular, em tablet, etc., dependendo da preferência e da disponibilidade do escritor., É comum as pessoas compartilharem suas obras em redes sociais, como Wattpad. ",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/writing.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "custoParaIniciar": 0, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "mente",
+      "materialNecessario": "Papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "puzzleSolving18",
+    "name": "Resolver quebra-cabeças",
+    "shortDescription": "Uma forma de se divertir, se desafiar e se estimular com enigmas e problemas.",
+    "description": "Desvendar quebra-cabeças é uma maneira de desfrutar, desafiar a mente e se estimular com uma variedade de enigmas, como palavras cruzadas, sudoku, caça-palavras e Cubo Mágico. Esse passatempo demanda habilidades como lógica, raciocínio, memória e vocabulário. A resolução de quebra-cabeças pode ocorrer em papel, computador, celular ou tablet, adaptando-se às preferências e disponibilidade do jogador. Essa atividade transcende a diversão, proporcionando um exercício intelectual que aprimora as faculdades cognitivas, oferecendo uma forma flexível e acessível de entretenimento e estímulo mental.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/puzzlesolving.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "custoParaIniciar": 50.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "mente",
+      "materialNecessario": "Quebra-cabeças, papel, caneta, computador, celular, tablet, etc.",
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "gardening19",
+    "name": "Jardinagem",
+    "shortDescription": "Uma forma de cuidar das plantas e embelezar o ambiente.",
+    "description": "Jardinagem é uma atividade que consiste em cultivar e manter plantas, como flores, frutas, verduras, ervas, etc., em vasos, canteiros, jardins ou hortas. Jardinagem pode ser feita em casa, em apartamentos, em escolas, em empresas ou em outros locais que tenham espaço e condições adequadas. Jardinagem requer conhecimento de tipos de plantas, de solo, de adubo, de rega, de poda, de pragas, etc. Jardinagem é uma forma de cuidar das plantas e embelezar o ambiente, além de ser uma forma de relaxar, de se conectar com a natureza e de produzir alimentos saudáveis.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/gardening.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Vasos, terra, sementes, mudas, regador, tesoura, etc.",
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "birdWatching20",
+    "name": "Observação de aves",
+    "shortDescription": "Uma forma de apreciar a beleza e a diversidade das aves.",
+    "description": "Observação de aves é uma atividade que consiste em observar, identificar e registrar as aves, que podem ser de diferentes espécies, cores, tamanhos, hábitos, etc. Observação de aves pode ser feita em diferentes locais, como parques, reservas, florestas, etc., dependendo da disponibilidade e da variedade de aves. Observação de aves requer conhecimento de tipos de aves, de sons, de comportamentos, de habitats, etc. Observação de aves é uma forma de apreciar a beleza e a diversidade das aves, além de ser uma forma de aprender sobre a natureza e a conservação.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/bridwatching.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Binóculos, câmera, guia de aves, caderno, caneta, etc.",
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "photography21",
+    "name": "Fotografia",
+    "shortDescription": "Uma forma de capturar e eternizar momentos com imagens.",
+    "description": "Fotografia é uma arte e uma técnica de capturar e eternizar momentos com imagens, usando uma câmera, uma lente, uma luz, um ângulo, um enquadramento, etc. Fotografia pode ser feita para diferentes fins, como artístico, documental, jornalístico, publicitário, etc., e para diferentes temas, como paisagem, retrato, natureza morta, etc. Fotografia requer conhecimento de tipos de câmeras, de lentes, de iluminação, de composição, de edição, etc. Fotografia é uma forma de capturar e eternizar momentos com imagens, além de ser uma forma de expressar a criatividade e a sensibilidade.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/photography.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "custoParaIniciar": 500.00, // BRL
+      "nivelDeDificuldade": 3,
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Câmera, lente, tripé, cartão de memória, bateria, etc.",
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "camping22",
+    "name": "Acampar",
+    "shortDescription": "Uma forma de se aventurar e se integrar com a natureza.",
+    "description": "Acampar é uma atividade que consiste em passar uma ou mais noites em um local ao ar livre, usando uma barraca, um saco de dormir, uma lanterna, etc. Acampar pode ser feito em diferentes locais, como parques, reservas, florestas, praias, etc., dependendo da disponibilidade e da segurança do local. Acampar requer conhecimento de tipos de barracas, de sacos de dormir, de fogueiras, de alimentos, de primeiros socorros, etc. Acampar é uma forma de se aventurar e se integrar com a natureza, além de ser uma forma de aprender sobre a sobrevivência e a convivência.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/camping.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "custoParaIniciar": 300.00, // BRL
+      "nivelDeDificuldade": 3,
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Barraca, saco de dormir, lanterna, fósforo, comida, água, etc.",
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "cooking23",
+    "name": "Cozinhar",
+    "shortDescription": "Uma forma de preparar e saborear alimentos com sabor e saúde.",
+    "description": "Cozinhar é uma atividade que consiste em preparar e saborear alimentos com sabor e saúde, usando ingredientes, utensílios, receitas, temperos, etc. Cozinhar pode ser feito para diferentes ocasiões, como café da manhã, almoço, jantar, lanche, etc., e para diferentes tipos de culinária, como brasileira, italiana, japonesa, etc. Cozinhar requer conhecimento de tipos de ingredientes, de utensílios, de receitas, de temperos, de medidas, de técnicas, etc. Cozinhar é uma forma de preparar e saborear alimentos com sabor e saúde, além de ser uma forma de se divertir, de se nutrir e de se socializar.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/cooking.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "custoParaIniciar": 100.00, // BRL
+      "nivelDeDificuldade": 2,
+      "categoriaHobby": "natureza",
+      "materialNecessario": "Ingredientes, utensílios, receitas, temperos, etc.",
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "sewing24",
+    "name": "Costura",
+    "shortDescription": "Uma técnica de criar peças com tecidos e agulhas.",
+    "description": "A costura é uma habilidade que envolve a criação de peças artesanais ou industriais por meio do uso de tecidos e agulhas, incorporando elementos como linhas, botões e zíperes. Pode ser aplicada na confecção de roupas, acessórios, cortinas, almofadas, entre outros. A prática da costura demanda conhecimentos sobre tipos de tecidos, linhas, agulhas, máquinas, moldes e medidas. Além de ser uma técnica versátil, a costura promove o desenvolvimento da criatividade, coordenação, precisão e produtividade, destacando-se como uma atividade que alia arte e funcionalidade.",
+    "imageUrl": "https://github.com/hortenciahs/SAP012-dataverse/blob/T004/src/data/Imagens%20IA/sewing.jpg?raw=true",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+      "custoParaIniciar": 200.00, // BRL
+      "nivelDeDificuldade": 3,
+      "categoriaHobby": "artesanato",
+      "materialNecessario": "Tecidos, linhas, agulhas, máquina de costura, etc.",
     }
   }
 ];
